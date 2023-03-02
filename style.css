@@ -22,14 +22,63 @@ div.topBar {
     width:100%;
     height:75px;
     background-color:lightgray;
+    border-radius: 10px;
+    box-shadow:4px 4px 8px black;
 }
 h3.classic3Header {
     font-family:'Arial';
     font-weight:lighter;
+    text-align: center;
 
 }
 h3.classic3Header:hover {
     font-family:'Arial';
     font-weight:light;
     color:#533d3b
+}
+div.classicHeadersbox {
+    background-color:#656565;
+    width:100%;
+    height:135;
+    border-radius: 10px;
+    box-shadow:4px 4px 8px black;
+}
+img.gameimg {
+    filter:drop-shadow(2px 2px 3px black);
+    filter:grayscale();
+}
+img.gameimg:hover {
+    filter:drop-shadow(2px 2px 3px black);
+}
+div.sidebar {
+    background-color:#151515;
+    box-shadow:5px 5px 7px black;
+    width:250px;
+    height:675px;
+    position:fixed;
+    left:1650px;
+    top:275px;
+}
+h1.sidebarMenu {
+    font-family:'Verdana';
+    font-weight:lighter;
+    text-align:center;
+}
+h2.sidebarOptions {
+    font-family:'Segoe UI';
+    text-align:center;
+    font-weight:light;
+
+}
+h2.sidebarOptions:hover {
+    font-family:'Segoe UI';
+    text-align:center;
+    font-weight:light;
+    color:#656565;
+}
+h1.sidebarMenu:hover {
+    font-family:'Verdana';
+    font-weight:lighter;
+    text-align:center;
+    color:#656565;
 }
