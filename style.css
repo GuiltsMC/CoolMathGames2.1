@@ -2,12 +2,14 @@ h1.classicHeader1 {
     font-family:'Arial';
     text-align:center;
     font-weight:lighter;
+    transition: all 0.6s ease;
 
 }
 h1.classicHeader1:hover {
     font-family:'Arial';
     text-align:center;
     color:#454545;
+    transform: scale(1.0102)
 }
 h2.lineBreak {
     font-size:32px;
@@ -46,9 +48,11 @@ div.classicHeadersbox {
 img.gameimg {
     filter:drop-shadow(2px 2px 3px black);
     filter:grayscale();
+    transition: all 0.6s ease;
 }
 img.gameimg:hover {
     filter:drop-shadow(2px 2px 3px black);
+    transform: scale(1.2)
 }
 div.sidebar {
     background-color:#151515;
@@ -63,11 +67,13 @@ h1.sidebarMenu {
     font-family:'Verdana';
     font-weight:lighter;
     text-align:center;
+    transition:all 0.6s ease;
 }
 h2.sidebarOptions {
     font-family:'Segoe UI';
     text-align:center;
     font-weight:light;
+    transition:all 0.6s ease;
 
 }
 h2.sidebarOptions:hover {
@@ -75,10 +81,12 @@ h2.sidebarOptions:hover {
     text-align:center;
     font-weight:light;
     color:#656565;
+    transform: scale(1.102)
 }
 h1.sidebarMenu:hover {
     font-family:'Verdana';
     font-weight:lighter;
     text-align:center;
     color:#656565;
+    transform: scale(1.102)
 }
