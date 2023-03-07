@@ -1,0 +1,17 @@
+div.topBar {
+    width:100%;
+height:75px;
+background-color:lightgray;
+}
+div.thegame {
+    box-shadow:4px 4px 8px black;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+}
+h3.classic3Header {
+    font-family:'Arial';
+    font-weight:lighter;
+    text-align: center;
+
+}
